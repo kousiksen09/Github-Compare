@@ -9,9 +9,12 @@ function* handleUserFetchSaga(action) {
       axios.get,
       `https://api.github.com/users/${action.userName}`
     );
+    console.log('response', response);
     yield delay(500);
     if (response.status === 200) {
       yield put(dataFetchSuccess(response.data));
+    } else if (response.status === 404) {
+      yield put(dataFetchFailure());
     } else {
       return 'Something Went Wrong. Please Retry';
     }

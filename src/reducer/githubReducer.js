@@ -30,7 +30,6 @@ const githubReducer = (state = initialState, action) => {
     case DATA_FETCH_SUCCESS:
       state.gitData.push(action.payload);
       return {
-        ...state,
         gitDataLoading: false,
         gitData: state.gitData,
         gitDataerror: null,
