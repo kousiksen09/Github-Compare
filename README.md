@@ -11,6 +11,6 @@ Github Comapre will help to comapre user by their followers. Key Technologies us
 Clone this repo in your local
 Type yarn start to run the application
 
-<b>\*\* Please Read Carefully</b>
+<h2><b>\*\* Please Read Carefully</b></h2>
 
-Type one username in the search box, click the compare button. For the second customer type another username and press Compare Buuton and clear the input box using backspace or cross button present inside searchbox (If you only click the compare button card will not be dispalyed, you have to clear at least one text from the searchbox otherwise another card will not be added.)
+<h3>Type one username in the search box, click the compare button. For the second customer type another username and press Compare Buuton and clear the input box using backspace or cross button present inside searchbox <b>(If you only click the compare button card will not be dispalyed, you have to clear at least one text from the searchbox otherwise another card will not be added.)</b></h3>
