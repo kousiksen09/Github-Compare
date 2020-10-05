@@ -7,9 +7,9 @@ Github Comapre will help to comapre user by their followers. Key Technologies us
 3. API for data fetch - https://api.github.com/users/
 4. Concept of React - Hooks
 
-<b>How To Run this project?</b>
-Clone this repo in your local
-Type yarn start to run the application
+<b>Demo</b>
+ https://github-compare-kousik.herokuapp.com/ 
+
 
 <h2><b> ** Please Read Carefully</b></h2>
 
